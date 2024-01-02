@@ -26,8 +26,8 @@ public class SeleniumDemo {
         driver.manage().window().maximize();
 
         driver.get("http://facebook.com");
-        driver.findElement(By.name("email")).sendKeys("4694944850");
-        driver.findElement(By.id("pass")).sendKeys("Betul1980");
+        driver.findElement(By.name("email")).sendKeys("4694233332");
+        driver.findElement(By.id("pass")).sendKeys("Password123");
          WebElement login=  driver.findElement(By.name("login"));
          login.click();
        // driver.get("http://google.com");
